@@ -5,17 +5,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"120"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"60"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"xpos"			"60"	[$X360]
-		"ypos"			"200"	[$X360]
+		"xpos"			"c-265"
+		"ypos"			"c65"
 		"zpos"			"2"
-		"wide"			"250"
-		"tall"			"100"
+		"wide"			"180"
+		"tall"			"150"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
@@ -81,12 +77,12 @@
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
 		"wide"			"50"
-		"tall"			"18"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Evermore Italic_24"
+		"font"			"Evermore_healt"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMaxHealthValue"

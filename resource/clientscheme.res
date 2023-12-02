@@ -3118,8 +3118,6 @@ Scheme
 			{
 				"name"		"Evermore"
 				"tall"		"26"
-				"weight"	"500"
-				"additive"	"0"
 				"antialias" "1"
 			}
 		}
