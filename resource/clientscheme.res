@@ -52,5 +52,11 @@ Scheme
 			"font" "resource/fonts/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"
 		}
+		"11"
+		{
+			"font" "resource/fonts/Hypnotize Icons.otf"
+			"name" "Hypnotize Icons"
+		}
 	}
+
 }

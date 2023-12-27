@@ -1,12 +1,12 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r63"	[$WIN32]
-		"ypos"			"29"	[$WIN32]
+		"xpos"			"r62"	
+		"ypos"			"3"	
 		"wide"			"50"
 		"tall"			"16"
 		"MeterFG"		"White"
@@ -17,10 +17,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"500"
+		"ypos"			"100"
 		"zpos"			"0"
-		"wide"			"76"
+		"wide"			"10"
 		"tall"			"44"
 		"visible"		"1"
 		"enabled"		"1"
@@ -75,7 +75,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Futura28"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"-5"
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"45"				
@@ -114,7 +114,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Box"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-40"
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
