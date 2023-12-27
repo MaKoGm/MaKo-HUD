@@ -28,7 +28,7 @@
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"42"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"east"
