@@ -90,6 +90,19 @@ Scheme
 			}
 		}
 		
+		"Symbols 24_shadow"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons"
+				"tall"			"24"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		
+		
 		"Symbols 26"
 		{
 			"1"
