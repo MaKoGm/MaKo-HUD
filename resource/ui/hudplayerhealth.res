@@ -35,8 +35,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"200"
+		"ypos"			"200"
 		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
@@ -153,8 +153,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusAnchor"
-		"xpos"			"65"
-		"xpos_minmode"	"0"
+		"xpos"			"95"
 		"ypos"			"0"
 		"wide"			"25"
 		"tall"			"25"

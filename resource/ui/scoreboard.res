@@ -2,27 +2,27 @@
 {
 	"scores"
 	{
-		"ControlName"				"CTFClientScoreBoardDialog"
-		"fieldName"					"scoreinfo"
-		"xpos"						"0"
-		"ypos"						"0"
-		"wide"						"f0"
-		"tall"						"480"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
-		"tabPosition"				"0"
-		"medal_width"				"0"
-		"avatar_width"				"55"
-		"spacer"					"2"
-		"name_width"				"85"
-		"nemesis_width"				"15"
-		"class_width"				"15"
-		"score_width"				"20"
-		"ping_width"				"26"
-		"killstreak_width"			"12"
-		"killstreak_image_width" 	"12"
+		"ControlName"		"CTFClientScoreBoardDialog"
+		"fieldName"			"scoreinfo"
+		"xpos"				"c-300"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"medal_width"		"15"
+		"avatar_width"		"54"
+		"spacer"			"5"
+		"name_width"		"85"
+		"nemesis_width"		"15"
+		"class_width"		"20"
+		"score_width"		"20"
+		"ping_width"		"20"
+		"killstreak_width"	"15"
+		"killstreak_image_width" "15"
 	}
 	
 	"MainBG"						//Used to move the entire scoreboard
@@ -50,16 +50,16 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"BlueScoreBG"
-		"xpos"						"0"
-		"ypos"						"-4"
+		"xpos"						"-2"
+		"ypos"						"-2"
 		"zpos"						"2"
-		"wide"						"257"
+		"wide"						"255"
 		"tall"						"25"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"border"					"BlueTransparent90"
+		"bgcolor_override"			"ahudBlue"
 		
 		"pin_to_sibling" 			"MainBG"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
@@ -67,7 +67,21 @@
 		
 		if_mvm
 		{
-			"visible"				"0"
+			"visible"		"0"
+		}
+
+		"BlueScoreBG2"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"BlueScoreBG2"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"ahudDarkBlue"
+			"proportionaltoparent"	"1"
 		}
 	}
 	
@@ -75,16 +89,16 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"RedScoreBG"
-		"xpos"						"0"
-		"ypos"						"-4"
+		"xpos"						"-2"
+		"ypos"						"-2"
 		"zpos"						"2"
-		"wide"						"258"
+		"wide"						"255"
 		"tall"						"25"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"border"					"RedTransparent90"
+		"bgcolor_override"			"ahudRed"
 		
 		"pin_to_sibling" 			"MainBG"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMRIGHT"
@@ -92,7 +106,21 @@
 		
 		if_mvm
 		{
-			"visible"				"0"
+			"visible"		"0"
+		}
+
+		"RedScoreBG2"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"RedScoreBG2"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"ahudDarkRed"
+			"proportionaltoparent"	"1"
 		}
 	}
 	
@@ -100,8 +128,8 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"BlueTeamScore"
-		"font"						"aRegular26"
-		"fgcolor"					ahudWhite
+		"font"						"aRegular30"
+		"fgcolor"					"ahudWhite"
 		"labelText"					"%blueteamscore%"
 		"textAlignment"				"west"
 		"xpos"						"-4"
@@ -180,7 +208,7 @@
 	
 	"BlueTeamPlayerCount"
 	{
-		"ControlName"				"CExLabel"
+	"ControlName"				"CExLabel"
 		"fieldName"					"BlueTeamPlayerCount"
 		"font"						"aRegular10"
 		"labelText"					"%blueteamplayercount%"
@@ -207,21 +235,21 @@
 	
 	"RedTeamScore"
 	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"RedTeamScore"
-		"font"						"aRegular26"
-		"fgcolor"					ahudWhite
-		"labelText"					"%redteamscore%"
-		"textAlignment"				"east"
-		"xpos"						"-4"
-		"ypos"						"-3"
-		"zpos"						"5"
-		"wide"						"50"
-		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
+		"ControlName"		"CExLabel"
+		"fieldName"		"RedTeamScore"
+		"font"			"aRegular34"
+		"labelText"		"%redteamscore%"
+		"textAlignment"		"west"
+		"xpos"			"-6"
+		"ypos"			"17"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"34"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"ahudWhite"
 		
 		"pin_to_sibling" 			"RedScoreBG"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
@@ -236,20 +264,20 @@
 	"RedTeamLabel"
 	{
 		"ControlName"				"CExLabel"
-		"fieldName"					"RedTeamLabel"
-		"font"						"aRegular20"
-		"labelText"					"%redteamname%"
-		"textAlignment"				"center"
-		"xpos"						"0"
+		"fieldName"					"RedTeamScore"
+		"font"						"aRegular30"
+		"fgcolor"					ahudWhite
+		"labelText"					"%redteamscore%"
+		"textAlignment"				"east"
+		"xpos"						"100"
 		"ypos"						"-2"
-		"zpos"						"20"
-		"wide"						"100"
+		"zpos"						"5"
+		"wide"						"50"
 		"tall"						"20"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"AllCaps"					"1"
 		
 		"pin_to_sibling" 			"RedScoreBG"
 		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"

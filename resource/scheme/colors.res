@@ -9,7 +9,10 @@ Scheme
 		//---------------------------------------------
 		// CUSTOM COLORS
 		//---------------------------------------------
-
+		
+		"HP"					"243 243 243 255"
+		"HP Buff"				"0 255 127 255"
+		"HP Low"				"200 45 45 255"
 		"Health Numbers"									"243 243 243 255"
 		
 		"Shadow"											"0 0 0 175"
@@ -26,7 +29,7 @@ Scheme
 		"Healing Numbers"		"0 255 127 255"
 
 		"Ammo In Clip"			"243 243 243 255"
-		"Ammo In Reserve"		"0 191 255 255"
+		"Ammo In Reserve"		"243 243 243 255"
 		"Ammo No Clip"			"243 243 243 255"
 		
 		"Low Ammo In Clip"									"255 50 50 255"

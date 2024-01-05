@@ -10,7 +10,7 @@
 		"xpos"	"0"
 		"ypos"	"0"
 		"wide"	"f0"
-		"tall"	"480"
+		"tall"	"600"
 	}
 
 	HudWeaponAmmo
@@ -54,10 +54,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"-5"
-		"ypos"			"0"
-		"wide"			"450"
-		"tall"			"400"
+		"xpos"			"c-75"
+		"ypos"			"c93"
+		"wide"			"150"
+		"tall"			"40"
 		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
@@ -916,11 +916,11 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"
-		"ypos"			"275"
-		"wide"	 		"320"
-		"tall"	 		"120"
-		"PaintBackgroundType"	"2"
+		"xpos"			"1"
+		"ypos"			"55"
+		"wide"	 		"210"
+		"tall"	 		"100"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"HudMenuEngyBuild"
