@@ -1,4 +1,4 @@
-![logo]MakoHUD
+##MakoHUD
 
 <p align="center">
   <a href="https://comfig.app/huds/page/hypnotizehud"><img src="https://i.imgur.com/0o80QUt.png"></a>
