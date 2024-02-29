@@ -1,18 +1,20 @@
-!MakoHUD
+<h1>MakoHUD</h1>
 
-<p align="center">
-  <a href="https://comfig.app/huds/page/hypnotizehud"><img src="https://i.imgur.com/0o80QUt.png"></a>
-  <a href="https://tf2huds.dev/hud/Hypnotize-Hud"><img src="https://i.imgur.com/lF9XotO.png"></a>
-  <a href="https://gamebanana.com/mods/291589"><img src="https://i.imgur.com/UzXoexI.png"></a>
-  <a href="https://www.editor.criticalflaw.ca/"><img src="https://i.imgur.com/6JJTzkc.png"></a>
-</p>
+A Team Fortress 2 HUD made by MaKo and  my first proyect in the tf2 hud world.
+Using loots of elemnts of other huds, my bigest inspiration is aHud with elements
+of PeachHUD and hypnotizehud .
 
-##
+<h1>INSTALLATION</h1>
 
-<a href="https://imgur.com/a/4sgZ1"><img src="https://i.imgur.com/vVxJdvB.png"></a>
+1) Download the HUD by clicking the green "Code" button at the top right of the page.
 
-<a href="https://github.com/Hypnootize/Hypnotize-Hud/wiki"><img src="https://i.imgur.com/UpvlsG7.png"></a>
+2) Unzip/Extract the downloaded MaKo-HUD-main.zip, inside you'll see the MaKo-HUD-main folder you'll be working with.
 
-<a href="https://github.com/Hypnootize/Hypnotize-Hud/wiki/Customization"><img src="https://i.imgur.com/tDsELgW.png"></a>
+3) Move the MaKo-HUD-main folder to your custom folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom).
+Can't find your Steam folder? Right-click Team Fortress 2 in your Steam library and select Manage > Browse local files.
 
-<a href="https://github.com/Hypnootize/Hypnotize-Hud/wiki/Credits"><img src="https://i.imgur.com/CjePbm6.png"></a>
+<h1>CREDITS</h1>
+
+Inspiration: aHUD, BudHUD, 7HUD, PeachHUD and HypnotizeHUD
+
+Material Design VTFs: aHUD, BudHUD, PeachHUD and HypnotizeHUD
