@@ -8,7 +8,7 @@
 		"xpos"			"c-75"
 		"ypos"			"c123"
 		"wide"			"150"
-		"tall"			"8"
+		"tall"			"5"
 		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
@@ -18,7 +18,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"150"
 		"tall"					"8"

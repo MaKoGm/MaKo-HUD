@@ -16,7 +16,7 @@
 		"expanded_height"	"35"
 		"resize_time"		"0.2"
 	}
-
+	
 	"TopBar"
 	{
 		"ControlName"	"EditablePanel"
@@ -258,7 +258,7 @@
 
 			"party_slot"	"5"
 		}
-
+	
 		"QueueContainer"
 		{
 			"ControlName"	"EditablePanel"

@@ -69,7 +69,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"NotBuiltLabel"
-			"font"				"Size 44"
+			"font"				"aRegular44"
 			"xpos"				"-18"
 			"ypos"				"0"
 			"wide"				"100"
@@ -247,7 +247,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"Size 10"
+				"font"			"aRegular10"
 				"xpos"			"15"
 				"ypos"			"4"
 				"wide"			"40"

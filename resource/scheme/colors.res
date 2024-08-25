@@ -9,10 +9,11 @@ Scheme
 		//---------------------------------------------
 		// CUSTOM COLORS
 		//---------------------------------------------
-		
-		"HP"					"243 243 243 255"
-		"HP Buff"				"0 255 127 255"
-		"HP Low"				"200 45 45 255"
+		"main"                                              ""
+        
+		"HP"												"243 243 243 255"
+		"HP Buff"											"0 255 127 255"
+		"HP Low"											"200 45 45 255"
 		"Health Numbers"									"243 243 243 255"
 		
 		"Shadow"											"0 0 0 175"
@@ -25,12 +26,12 @@ Scheme
 		"Low Health Pulse"									"255 0 0 255"
 		"Low Health Spec"									"225 41 41 255"
 
-		"Damage Numbers"		"255 255 0 255"		// Set in Advanced Options
-		"Healing Numbers"		"0 255 127 255"
+		"Damage Numbers"									"255 255 0 255"		// Set in Advanced Options
+		"Healing Numbers"									"0 255 127 255"
 
-		"Ammo In Clip"			"243 243 243 255"
-		"Ammo In Reserve"		"243 243 243 255"
-		"Ammo No Clip"			"243 243 243 255"
+		"Ammo In Clip"										"243 243 243 255"
+		"Ammo In Reserve"									"243 243 243 255"
+		"Ammo No Clip"										"243 243 243 255"
 		
 		"Low Ammo In Clip"									"255 50 50 255"
 		"Low Ammo In Clip Pulse"							"255 0 0 255"
@@ -39,17 +40,32 @@ Scheme
 		"Low Ammo No Clip"									"255 50 50 255"
 		"Low Ammo No Clip Pulse"							"255 0 0 255"
 
-		"Stickies"				"243 243 243 255"
-		"Metal"					"243 243 243 255"
-		"Killstreak"			"243 243 243 255"
+		"Stickies"											"243 243 243 255"
+		"Metal"												"243 243 243 255"
+		"Killstreak"										"243 243 243 255"
+		
+		"maincolor"											"98 86 136 255"
+
+		"ChargePercent"										"243 243 243 255"
+		"Ubercharge Meter"									"30 175 255 255"
+		"Full Ubercharge"									"30 175 255 255"
+		"Full Ubercharge Pulse"								"80 150 255 255"
 
 
-
-		"ChargePercent"					"243 243 243 255"
-		"Ubercharge Meter"				"30 175 255 255"
-		"Full Ubercharge"				"30 175 255 255"
-		"Full Ubercharge Pulse"			"80 150 255 255"
-
+        //---------------------------------------------
+		// Stats
+		//---------------------------------------------
+        
+        "color1" "105 105 105 255"
+        "color2" "95 95 95 255"
+        "color3" "85 85 85 255"
+        "color4" "75 75 75 255" 
+        "color5" "65 65 65 255"
+        "color6" "55 55 55 255" 
+        "color7" "45 45 45 255"
+        "color8" "35 35 35 255"
+        "color9" "25 25 25 255"
+        
 		//---------------------------------------------
 		// HUD COLORS
 		//---------------------------------------------
@@ -57,10 +73,10 @@ Scheme
 		"ShadowBlack"			"7 7 7 100"
 		"HudBlack"				"0 0 0 200"
 
-		"ahudBlue"				"72 112 125 255"
-		"ahudDarkBlue"			"46 73 82 255"
-		"ahudRed"				"158 64 61 255"
-		"ahudDarkRed"			"102 48 46 255"
+		"ahudBlue"				"115 154 170 255"
+		"ahudDarkBlue"			"98 131 144 255"
+		"ahudRed"				"192 54 52 255"
+		"ahudDarkRed"			"166 47 45 255"
 
 		"ahudGreen"				"92 122 90 255"
 		"ahudDarkGreen"			"38 53 36 255"

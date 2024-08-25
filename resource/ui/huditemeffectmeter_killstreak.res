@@ -65,7 +65,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Futura20"
+		"font"					"aRegular20"
 		"fgcolor_override"		"255 255 255 255"
 	}
 
@@ -73,7 +73,7 @@
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					"Futura28"
+		"font"					"aRegular28"
 		"xpos"					"0"
 		"ypos"					"-5"
 		"zpos"					"2"
@@ -106,7 +106,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Futura16"
+		"font"					"aRegular16"
 		"fgcolor_override"		"255 255 255 255"
 	}
 	"Box"
