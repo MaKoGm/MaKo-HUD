@@ -124,22 +124,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"MoveableIconBG"
-		{
-			"ControlName"	"CIconPanel"
-			"fieldName"		"MoveableIconBG"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"0"
-			"wide"			"10"
-			"tall"			"36"
-			"visible"		"0"
-			"enabled"		"0"
-			"icon"			"obj_status_alert_background_tall_nocolor"
-			"iconColor"		"HudBlack"
-			"scaleImage"	"1"
-		}
-
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"

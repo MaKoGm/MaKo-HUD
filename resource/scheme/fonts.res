@@ -468,6 +468,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+        "aRegular6"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"6"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"aRegular8"
 		{
 			"1"
